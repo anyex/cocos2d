@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="角色类">
+      <UniqueIdentifier>{e6c3864d-df82-4de8-a217-f6c16e234e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="怪物">
+      <UniqueIdentifier>{5ba77262-cb09-4c9a-8ab7-b7bcacc975b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="飘字特效">
+      <UniqueIdentifier>{fa8c469d-1167-4657-8a47-52eba3154dff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>角色类</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowWord.cpp">
+      <Filter>飘字特效</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>角色类</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="MonstManage.h">
+      <Filter>怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowWord.h">
+      <Filter>飘字特效</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

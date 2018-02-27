@@ -1,0 +1,7 @@
+﻿  HelloWorldScene.cpp
+f:\project\cocos2dx\cocos\cocosprojects\mylittlerunner\classes\helloworldscene.cpp(139): warning C4996: 'cocos2d::ui::Text::setText': 被声明为已否决
+  e:\study\cocos2dx\cocos2d-x\cocos2d-x-3.10\cocos\ui\uitext.h(105): note: 参见“cocos2d::ui::Text::setText”的声明
+  复制了 60 个文件
+  MyLittleRunner.vcxproj -> F:\Project\Cocos2dX\Cocos\CocosProjects\MyLittleRunner\proj.win32\Debug.win32\MyLittleRunner.exe
+  MyLittleRunner.vcxproj -> F:\Project\Cocos2dX\Cocos\CocosProjects\MyLittleRunner\proj.win32\Debug.win32\MyLittleRunner.pdb (Full PDB)
+  复制了 0 个文件
